@@ -1,0 +1,39 @@
+:py:mod:`cipher_jiachen_guov.cipher_jiachen_guov`
+=================================================
+
+.. py:module:: cipher_jiachen_guov.cipher_jiachen_guov
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher_jiachen_guov.cipher_jiachen_guov.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   One type of cipher that each letter within the text is 'shifted' a certain number of places down the alphabet.
+   :param text: The text that will be encrypted/decrypted.
+   :type text: str
+   :param shift:  The number of positions that letters should be shift
+                 encrypt : bool
+                  Boolean that defines if is encrypting or decrypting text here.
+   :type shift: int
+
+   :returns: The resulted version will be a string
+   :rtype: str
+
+   .. rubric:: Examples
+
+   >>> from cipher_jg4348 import cipher_jg4348
+   >>> cipher_jg4348.cipher('nice',shift = 5, encrypt = True)
+   'snhj'
+
+
